@@ -1,0 +1,2673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MOVY - Movies & Shows</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HERO SECTION
+    ====================================================== -->
+
+    <section class="hero-section">
+
+
+        <!-- Hero Background Image
+             Image location:
+             images/hero.jpg
+        -->
+
+        <div class="hero-bg"></div>
+
+
+        <!-- Dark Overlay -->
+
+        <div class="hero-overlay"></div>
+
+
+
+        <!-- =================================================
+             HEADER
+        ================================================== -->
+
+        <header class="main-header">
+
+
+            <!-- MOVY LOGO -->
+
+            <a href="#" class="movy-logo">
+                M
+            </a>
+
+
+
+            <!-- NAVBAR -->
+
+            <nav class="movy-navbar">
+
+
+                <!-- HOME -->
+
+                <a href="#" class="nav-item active">
+
+                    <i class="bi bi-house-fill"></i>
+
+                    <span>Home</span>
+
+                </a>
+
+
+
+                <!-- MOVIES -->
+
+                <a href="#" class="nav-item">
+
+                    <i class="bi bi-film"></i>
+
+                    <span>Movies</span>
+
+                </a>
+
+
+
+                <!-- SHOWS -->
+
+                <a href="#" class="nav-item">
+
+                    <i class="bi bi-tv"></i>
+
+                    <span>Shows</span>
+
+                </a>
+
+
+
+                <!-- ANIME -->
+
+                <a href="#" class="nav-item">
+
+                    <i class="bi bi-star"></i>
+
+                    <span>Anime</span>
+
+                </a>
+
+
+
+                <!-- DIVIDER -->
+
+                <div class="nav-divider"></div>
+
+
+
+                <!-- SEARCH -->
+
+                <button class="icon-btn" id="searchBtn">
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+
+
+                <!-- USER -->
+
+                <button class="icon-btn">
+
+                    <i class="bi bi-person"></i>
+
+                </button>
+
+
+            </nav>
+
+
+        </header>
+
+        <!-- =====================================================
+     MOBILE TOP LOGO
+===================================================== -->
+
+        <div class="mobile-top-logo">
+
+            <a href="#home">
+                <span>M</span>
+            </a>
+
+        </div>
+
+
+        <!-- =====================================================
+     MOBILE BOTTOM NAVIGATION
+===================================================== -->
+
+        <nav class="mobile-bottom-nav">
+
+            <a href="#home" class="mobile-nav-item active">
+
+                <i class="bi bi-house-fill"></i>
+
+                <span>Home</span>
+
+            </a>
+
+
+            <a href="#movies" class="mobile-nav-item">
+
+                <i class="bi bi-film"></i>
+
+                <span>Movies</span>
+
+            </a>
+
+
+            <a href="#shows" class="mobile-nav-item">
+
+                <i class="bi bi-tv"></i>
+
+                <span>Shows</span>
+
+            </a>
+
+
+            <a href="#anime" class="mobile-nav-item">
+
+                <i class="bi bi-star"></i>
+
+                <span>Anime</span>
+
+            </a>
+
+
+            <a href="#search" class="mobile-nav-item">
+
+                <i class="bi bi-search"></i>
+
+                <span>Search</span>
+
+            </a>
+
+
+            <a href="#account" class="mobile-nav-item">
+
+                <i class="bi bi-person"></i>
+
+                <span>Account</span>
+
+            </a>
+
+        </nav>
+
+        <!-- =====================================================
+     MOBILE BOTTOM NAVIGATION
+===================================================== -->
+
+        <nav class="mobile-bottom-nav">
+
+            <a href="#home" class="mobile-nav-item active">
+
+                <i class="bi bi-house-fill"></i>
+
+                <span>Home</span>
+
+            </a>
+
+
+            <a href="#movies" class="mobile-nav-item">
+
+                <i class="bi bi-film"></i>
+
+                <span>Movies</span>
+
+            </a>
+
+
+            <a href="#shows" class="mobile-nav-item">
+
+                <i class="bi bi-tv"></i>
+
+                <span>Shows</span>
+
+            </a>
+
+
+            <a href="#anime" class="mobile-nav-item">
+
+                <i class="bi bi-star"></i>
+
+                <span>Anime</span>
+
+            </a>
+
+
+            <a href="#search" class="mobile-nav-item">
+
+                <i class="bi bi-search"></i>
+
+                <span>Search</span>
+
+            </a>
+
+
+            <a href="#account" class="mobile-nav-item">
+
+                <i class="bi bi-person"></i>
+
+                <span>Account</span>
+
+            </a>
+
+        </nav>
+
+
+
+        <!-- =================================================
+             HERO CONTENT
+        ================================================== -->
+
+        <div class="hero-content">
+
+
+            <!-- TITLE -->
+
+            <h1 class="hero-title">
+                LANTERNS
+            </h1>
+
+
+
+            <!-- MOVIE INFORMATION -->
+
+            <div class="movie-meta">
+
+
+                <span class="rating">
+
+                    <i class="bi bi-star-fill"></i>
+
+                    8.3
+
+                </span>
+
+
+                <span>•</span>
+
+
+                <span>2026</span>
+
+
+                <span>•</span>
+
+
+                <span>Show</span>
+
+
+                <span>•</span>
+
+
+                <span>Drama</span>
+
+
+                <span>•</span>
+
+
+                <span>Mystery</span>
+
+
+            </div>
+
+
+
+            <!-- DESCRIPTION -->
+
+            <p class="hero-description">
+
+                Two intergalactic cops, new recruit John Stewart and
+                Lantern legend Hal Jordan, are drawn into a dark,
+                Earth-based mystery as they investigate a murder
+                in the American heartland.
+
+            </p>
+
+
+
+            <!-- BUTTONS -->
+
+            <div class="hero-buttons">
+
+
+                <!-- PLAY -->
+
+                <button class="play-btn" id="playBtn">
+
+                    <i class="bi bi-play-fill"></i>
+
+                    Play
+
+                </button>
+
+
+
+                <!-- MORE INFO -->
+
+                <button class="info-btn">
+
+                    <i class="bi bi-info-circle"></i>
+
+                    More info
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             HERO BADGES
+        ================================================== -->
+
+        <div class="hero-badges">
+
+
+            <div class="badge-item">
+
+                <i class="bi bi-megaphone-fill"></i>
+
+                <span>New season</span>
+
+            </div>
+
+
+
+            <div class="badge-item">
+
+                <span class="top10-badge">
+
+                    TOP
+                    <br>
+                    10
+
+                </span>
+
+                <span>#4 in TV shows</span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             SLIDER INDICATORS
+        ================================================== -->
+
+        <div class="slider-indicators">
+
+            <span></span>
+
+            <span class="active"></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- =====================================================
+     TOP 10 ON MOVY
+===================================================== -->
+
+    <section class="top10-section">
+
+        <div class="top10-container">
+
+
+            <!-- SECTION HEADING -->
+
+            <div class="top10-heading">
+
+                <h2>
+                    TOP 10 <span>on Movy</span>
+                </h2>
+
+                <p>
+                    The most watched titles right now
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+             MOVIE SLIDER
+        ================================================== -->
+
+            <div class="top10-slider-wrapper">
+
+
+                <!-- LEFT ARROW -->
+
+                <button class="top10-arrow top10-prev" id="top10Prev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+
+                <!-- MOVIE SLIDER -->
+
+                <div class="top10-slider" id="top10Slider">
+
+
+                    <!-- =========================================
+                     MOVIE 1 - FEATURED
+                ========================================== -->
+
+                    <div class="top10-card featured-card">
+
+
+                        <!-- IMAGE:
+                         images/movie1.jpg
+                    -->
+
+                        <img src="images/movie1.jpg" alt="Resident Evil">
+
+
+                        <!-- TOP NUMBER -->
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>1</strong>
+                        </div>
+
+
+                        <!-- FEATURED CONTENT -->
+
+                        <div class="featured-content">
+
+                            <h3>
+                                Resident Evil
+                            </h3>
+
+                            <p class="cast">
+                                Austin Abrams, Paul Walter Hauser,
+                                Kali Reis, Zach Cherry
+                            </p>
+
+                            <p class="featured-description">
+                                Medical courier Bryan unwittingly finds
+                                himself fighting for survival as one
+                                fateful, horrifying night collapses
+                                around him in chaos.
+                            </p>
+
+                            <button class="trailer-btn">
+                                See trailer
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 2
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie2.jpg
+                    -->
+
+                        <img src="images/movie2.jpg" alt="Lanterns">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>2</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Lanterns
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.3
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 3
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie3.jpg
+                    -->
+
+                        <img src="images/movie3.jpg" alt="Monster">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>3</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Monster: The Lizzie Borden Story
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.1
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 4
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie4.jpg
+                    -->
+
+                        <img src="images/movie4.jpg" alt="Lioness">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>4</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Lioness
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.2
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2023</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 5
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie5.jpg
+                    -->
+
+                        <img src="images/movie5.jpg" alt="The End of Oak Street">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>5</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                The End of Oak Street
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.0
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 6
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie6.jpg
+                    -->
+
+                        <img src="images/movie6.jpg" alt="MobLand">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>6</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                MobLand
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.4
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2025</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 7
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie7.jpg
+                    -->
+
+                        <img src="images/movie7.jpg" alt="Neagley">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>7</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Neagley
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.0
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 8
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie8.jpg
+                    -->
+
+                        <img src="images/movie8.jpg" alt="Heart of the Beast">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>8</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Heart of the Beast
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.7
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 9
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie9.jpg
+                    -->
+
+                        <img src="images/movie9.jpg" alt="Forgotten Island">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>9</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Forgotten Island
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.5
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =========================================
+                     MOVIE 10
+                ========================================== -->
+
+                    <div class="top10-card">
+
+
+                        <!-- IMAGE:
+                         images/movie10.jpg
+                    -->
+
+                        <img src="images/movie10.jpg" alt="Movie 10">
+
+
+                        <div class="top-badge">
+                            TOP
+                            <strong>10</strong>
+                        </div>
+
+
+                        <div class="movie-card-info">
+
+                            <h3>
+                                Movie Ten
+                            </h3>
+
+                            <div class="movie-meta-small">
+
+                                <span class="rating-small">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.4
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="top10-arrow top10-next" id="top10Next">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     TRENDING THIS WEEK
+===================================================== -->
+
+    <section class="trending-section">
+
+        <div class="trending-container">
+
+            <!-- HEADING -->
+
+            <div class="trending-heading">
+
+                <h2>Trending This Week</h2>
+
+                <p>What everyone is watching this week</p>
+
+            </div>
+
+
+            <!-- SLIDER -->
+
+            <div class="trending-slider-wrapper">
+
+                <!-- LEFT ARROW -->
+
+                <button class="trending-arrow trending-prev" id="trendingPrev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+                <!-- CARDS -->
+
+                <div class="trending-slider" id="trendingSlider">
+
+
+                    <!-- CARD 1 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending1.jpg" alt="Resident Evil">
+
+                            <span class="trending-label">
+                                Recently added
+                            </span>
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>Resident Evil</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.3
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 2 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending2.jpg" alt="Monster">
+
+                            <span class="trending-label">
+                                New season
+                            </span>
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>Monster: The Lizzie Borden Story</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.2
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 3 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending3.jpg" alt="The End of Oak Street">
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>The End of Oak Street</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.0
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 4 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending4.jpg" alt="Neagley">
+
+                            <span class="trending-label">
+                                New season
+                            </span>
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>Neagley</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.0
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 5 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending5.jpg" alt="Heart of the Beast">
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>Heart of the Beast</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.7
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 6 -->
+
+                    <div class="trending-card">
+
+                        <div class="trending-image">
+
+                            <img src="images/trending6.jpg" alt="Forgotten Island">
+
+                        </div>
+
+
+                        <div class="trending-info">
+
+                            <h3>Forgotten Island</h3>
+
+                            <div class="trending-meta">
+
+                                <span class="trending-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.5
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="trending-arrow trending-next" id="trendingNext">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     ONLY ON NETFLIX
+===================================================== -->
+
+    <section class="streaming-section">
+
+        <div class="streaming-container">
+
+            <!-- HEADING -->
+
+            <div class="streaming-heading">
+
+                <h2>
+                    Only on <span>Netflix</span>
+                </h2>
+
+                <p>
+                    Popular titles on this streaming service
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+             STREAMING SERVICES
+        ================================================== -->
+
+            <div class="streaming-services">
+
+                <button class="service-btn active">
+
+                    <img src="images/netflix-logo.png" alt="Netflix">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/prime-video-logo.png" alt="Prime Video">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/hbo-logo.png" alt="HBO Max">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/disney-logo.png" alt="Disney">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/apple-tv-logo.png" alt="Apple TV">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/paramount-logo.png" alt="Paramount">
+
+                </button>
+
+
+                <button class="service-btn">
+
+                    <img src="images/hulu-logo.png" alt="Hulu">
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+             MOVIE SLIDER
+        ================================================== -->
+
+            <div class="streaming-slider-wrapper">
+
+                <!-- LEFT ARROW -->
+
+                <button class="streaming-arrow streaming-prev" id="streamingPrev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="streaming-arrow streaming-next" id="streamingNext">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+
+                <!-- MOVIE SLIDER -->
+
+                <div class="streaming-slider" id="streamingSlider">
+
+
+                    <!-- CARD 1 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix1.jpg" alt="The Scandal">
+
+                            <span class="streaming-label">
+                                New season
+                            </span>
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                The Scandal
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    6.5
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 2 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix2.jpg" alt="Raw">
+
+                            <span class="streaming-label">
+                                New episode
+                            </span>
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                Raw
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    6.8
+                                </span>
+
+                                <span>•</span>
+
+                                <span>1993</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 3 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix3.jpg" alt="Sesame Street">
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                Sesame Street
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.1
+                                </span>
+
+                                <span>•</span>
+
+                                <span>1969</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 4 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix4.jpg" alt="C.I.D.">
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                C.I.D.
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    5.7
+                                </span>
+
+                                <span>•</span>
+
+                                <span>1998</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 5 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix5.jpg" alt="Netflix Movie">
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                Netflix Original
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.5
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 6 -->
+
+                    <div class="streaming-card">
+
+                        <div class="streaming-image">
+
+                            <img src="images/netflix6.jpg" alt="Netflix Show">
+
+                        </div>
+
+
+                        <div class="streaming-info">
+
+                            <h3>
+                                New Netflix Show
+                            </h3>
+
+                            <div class="streaming-meta">
+
+                                <span class="streaming-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.1
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     RECENTLY ADDED IN 4K
+===================================================== -->
+
+    <section class="recently-section">
+
+        <div class="recently-container">
+
+            <!-- HEADING -->
+
+            <div class="recently-heading">
+
+                <h2>
+                    Recently added in 4K
+                    <i class="bi bi-chevron-right"></i>
+                </h2>
+
+                <p>
+                    The latest movies and series in Ultra HD
+                </p>
+
+            </div>
+
+
+            <!-- SLIDER -->
+
+            <div class="recently-slider-wrapper">
+
+
+                <!-- LEFT ARROW -->
+
+                <button class="recently-arrow recently-prev" id="recentlyPrev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+                <!-- CARDS -->
+
+                <div class="recently-slider" id="recentlySlider">
+
+
+                    <!-- CARD 1 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k1.jpg" alt="LOL 2.0">
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                LOL 2.0: Anne's Golden Hour
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    6.0
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 2 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k2.jpg" alt="Spring of the New Season">
+
+                            <div class="recently-badges">
+
+                                <span>New episode</span>
+
+                                <span>Watch now</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                Spring of the New Season
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    9.5
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 3 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k3.jpg" alt="Teenage Sex and Death at Camp Miasma">
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                Teenage Sex and Death at Camp Miasma
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    6.4
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 4 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k4.jpg" alt="The Get Out">
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                The Get Out
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    6.1
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 5 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k5.jpg" alt="4K Movie">
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                Latest 4K Movie
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    7.4
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 6 -->
+
+                    <div class="recently-card">
+
+                        <div class="recently-image">
+
+                            <img src="images/4k6.jpg" alt="4K Series">
+
+                        </div>
+
+
+                        <div class="recently-info">
+
+                            <h3>
+                                Latest 4K Series
+                            </h3>
+
+                            <div class="recently-meta">
+
+                                <span class="recently-rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    8.2
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="recently-arrow recently-next" id="recentlyNext">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     TOP RATED
+===================================================== -->
+
+    <section class="top-rated-section">
+
+        <div class="top-rated-container">
+
+            <!-- HEADING -->
+
+            <div class="top-rated-heading">
+
+                <h2>Top rated</h2>
+
+                <p>Highest rated movies and series</p>
+
+            </div>
+
+
+            <!-- SLIDER -->
+
+            <div class="top-rated-slider-wrapper">
+
+
+                <!-- LEFT ARROW -->
+
+                <button class="top-rated-arrow top-rated-prev" id="topRatedPrev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+                <!-- CARDS -->
+
+                <div class="top-rated-slider" id="topRatedSlider">
+
+
+                    <!-- CARD 1 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated1.jpg" alt="The Shawshank Redemption">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                The Shawshank Redemption
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    8.7
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>1994</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 2 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated2.jpg" alt="Dutton Ranch">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                Dutton Ranch
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    9.2
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 3 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated3.jpg" alt="The Godfather">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                The Godfather
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    8.7
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>1972</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 4 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated4.jpg" alt="Breaking Bad">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                Breaking Bad
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    9.0
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2008</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 5 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated5.jpg" alt="Top Rated Movie">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                Top Rated Movie
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    8.9
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2025</span>
+
+                                <span>•</span>
+
+                                <span>Movie</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CARD 6 -->
+
+                    <div class="top-rated-card">
+
+                        <div class="top-rated-image">
+
+                            <img src="images/toprated6.jpg" alt="Top Rated Series">
+
+                        </div>
+
+
+                        <div class="top-rated-info">
+
+                            <h3>
+                                Top Rated Series
+                            </h3>
+
+                            <div class="top-rated-meta">
+
+                                <span class="top-rated-rating">
+
+                                    <i class="bi bi-star-fill"></i>
+
+                                    8.8
+
+                                </span>
+
+                                <span>•</span>
+
+                                <span>2026</span>
+
+                                <span>•</span>
+
+                                <span>TV Show</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="top-rated-arrow top-rated-next" id="topRatedNext">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     POPULAR GENRES
+===================================================== -->
+
+    <section class="genres-section">
+
+        <div class="genres-container">
+
+            <!-- HEADING -->
+
+            <div class="genres-heading">
+
+                <h2>
+                    Popular Genres
+                    <i class="bi bi-chevron-right"></i>
+                </h2>
+
+                <p>Find something by mood</p>
+
+            </div>
+
+
+            <!-- GENRE SLIDER -->
+
+            <div class="genres-slider-wrapper">
+
+
+                <!-- LEFT ARROW -->
+
+                <button class="genres-arrow genres-prev" id="genresPrev">
+
+                    <i class="bi bi-chevron-left"></i>
+
+                </button>
+
+
+                <!-- SLIDER -->
+
+                <div class="genres-slider" id="genresSlider">
+
+
+                    <!-- 1 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-action.jpg" alt="Action">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Action</h3>
+
+                    </div>
+
+
+                    <!-- 2 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-adventure.jpg" alt="Adventure">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Adventure</h3>
+
+                    </div>
+
+
+                    <!-- 3 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-animation.jpg" alt="Animation">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Animation</h3>
+
+                    </div>
+
+
+                    <!-- 4 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-comedy.jpg" alt="Comedy">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Comedy</h3>
+
+                    </div>
+
+
+                    <!-- 5 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-crime.jpg" alt="Crime">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Crime</h3>
+
+                    </div>
+
+
+                    <!-- 6 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-documentary.jpg" alt="Documentary">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Documentary</h3>
+
+                    </div>
+
+
+                    <!-- 7 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-drama.jpg" alt="Drama">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Drama</h3>
+
+                    </div>
+
+
+                    <!-- 8 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-family.jpg" alt="Family">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Family</h3>
+
+                    </div>
+
+
+                    <!-- 9 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-fantasy.jpg" alt="Fantasy">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Fantasy</h3>
+
+                    </div>
+
+
+                    <!-- 10 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-horror.jpg" alt="Horror">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Horror</h3>
+
+                    </div>
+
+
+                    <!-- 11 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-mystery.jpg" alt="Mystery">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Mystery</h3>
+
+                    </div>
+
+
+                    <!-- 12 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-romance.jpg" alt="Romance">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Romance</h3>
+
+                    </div>
+
+
+                    <!-- 13 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-scifi.jpg" alt="Sci-Fi">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Sci-Fi</h3>
+
+                    </div>
+
+
+                    <!-- 14 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-thriller.jpg" alt="Thriller">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Thriller</h3>
+
+                    </div>
+
+
+                    <!-- 15 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-war.jpg" alt="War">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>War</h3>
+
+                    </div>
+
+
+                    <!-- 16 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-western.jpg" alt="Western">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Western</h3>
+
+                    </div>
+
+
+                    <!-- 17 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-history.jpg" alt="History">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>History</h3>
+
+                    </div>
+
+
+                    <!-- 18 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-music.jpg" alt="Music">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Music</h3>
+
+                    </div>
+
+
+                    <!-- 19 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-sport.jpg" alt="Sport">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>Sport</h3>
+
+                    </div>
+
+
+                    <!-- 20 -->
+
+                    <div class="genre-card">
+
+                        <img src="images/genre-tv.jpg" alt="TV Movie">
+
+                        <div class="genre-overlay"></div>
+
+                        <h3>TV Movie</h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT ARROW -->
+
+                <button class="genres-arrow genres-next" id="genresNext">
+
+                    <i class="bi bi-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     MOVY FOOTER
+===================================================== -->
+
+    <footer class="movy-footer">
+
+        <div class="movy-footer-container">
+
+            <div class="movy-footer-left">
+
+                <p>
+                    Movy does not host, upload, or store any files.
+                    Titles shown here are indexed automatically from public
+                    sources and third-party services. The media stays on
+                    those platforms — we only provide links.
+                </p>
+
+            </div>
+
+
+            <div class="movy-footer-right">
+
+                <p>
+                    © 2026 Movy · v0.2.1
+                </p>
+
+                <div class="footer-links">
+
+                    <a href="#">Get help</a>
+
+                    <a href="#">Terms</a>
+
+                    <a href="#">Privacy</a>
+
+                    <a href="#">DMCA</a>
+
+                    <a href="#">API</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- BACK TO TOP -->
+
+            <button class="movy-back-top" id="movyBackTop" aria-label="Back to top">
+
+                <i class="bi bi-arrow-up"></i>
+
+            </button>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         SEARCH BOX
+    ====================================================== -->
+
+    <div class="search-box" id="searchBox">
+
+
+        <input type="text" id="searchInput" placeholder="Search movies, shows, anime...">
+
+
+        <button id="closeSearch">
+
+            <i class="bi bi-x-lg"></i>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- Custom JS -->
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
